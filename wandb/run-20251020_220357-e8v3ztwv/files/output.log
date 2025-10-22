@@ -1,0 +1,76 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.078493
+Epoch 10/1000 | Avg Loss: 0.016583
+Epoch 20/1000 | Avg Loss: 0.013125
+Epoch 30/1000 | Avg Loss: 0.008842
+Epoch 40/1000 | Avg Loss: 0.007007
+Epoch 50/1000 | Avg Loss: 0.005495
+Epoch 60/1000 | Avg Loss: 0.003884
+Epoch 70/1000 | Avg Loss: 0.003059
+Epoch 80/1000 | Avg Loss: 0.002822
+Epoch 90/1000 | Avg Loss: 0.002252
+Epoch 100/1000 | Avg Loss: 0.002166
+Epoch 110/1000 | Avg Loss: 0.002055
+Epoch 120/1000 | Avg Loss: 0.002006
+Epoch 130/1000 | Avg Loss: 0.001892
+Epoch 140/1000 | Avg Loss: 0.001731
+Epoch 150/1000 | Avg Loss: 0.001591
+Epoch 160/1000 | Avg Loss: 0.001510
+Epoch 170/1000 | Avg Loss: 0.001270
+Epoch 180/1000 | Avg Loss: 0.001249
+Epoch 190/1000 | Avg Loss: 0.001158
+Epoch 200/1000 | Avg Loss: 0.001152
+Epoch 210/1000 | Avg Loss: 0.001151
+Epoch 220/1000 | Avg Loss: 0.001045
+Epoch 230/1000 | Avg Loss: 0.001032
+Epoch 240/1000 | Avg Loss: 0.000963
+Epoch 250/1000 | Avg Loss: 0.000974
+Epoch 260/1000 | Avg Loss: 0.001035
+Epoch 270/1000 | Avg Loss: 0.000892
+Epoch 280/1000 | Avg Loss: 0.000885
+Epoch 290/1000 | Avg Loss: 0.000895
+Epoch 300/1000 | Avg Loss: 0.000906
+Epoch 310/1000 | Avg Loss: 0.000907
+Epoch 320/1000 | Avg Loss: 0.000887
+Epoch 330/1000 | Avg Loss: 0.000934
+Epoch 340/1000 | Avg Loss: 0.000880
+Epoch 350/1000 | Avg Loss: 0.000925
+Epoch 360/1000 | Avg Loss: 0.000818
+Epoch 370/1000 | Avg Loss: 0.000914
+Epoch 380/1000 | Avg Loss: 0.000887
+Epoch 390/1000 | Avg Loss: 0.000819
+Epoch 400/1000 | Avg Loss: 0.000838
+Epoch 410/1000 | Avg Loss: 0.000817
+Epoch 420/1000 | Avg Loss: 0.000876
+Epoch 430/1000 | Avg Loss: 0.000835
+Epoch 440/1000 | Avg Loss: 0.000855
+Epoch 450/1000 | Avg Loss: 0.000811
+Epoch 460/1000 | Avg Loss: 0.000842
+Epoch 470/1000 | Avg Loss: 0.000842
+Epoch 480/1000 | Avg Loss: 0.000817
+Epoch 490/1000 | Avg Loss: 0.000779
+Epoch 500/1000 | Avg Loss: 0.000779
+Epoch 510/1000 | Avg Loss: 0.000834
+Epoch 520/1000 | Avg Loss: 0.000720
+Traceback (most recent call last):
+  File "pixel.py", line 246, in <module>
+  File "pixel.py", line 197, in train
+    total_loss = 0.0
+  File "pixel.py", line 184, in train_batch
+    loss = loss_fn(recon, ref_gt, vis_mask, config)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/optim/optimizer.py", line 494, in wrapper
+    return out
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/autograd/profiler.py", line 705, in __exit__
+    torch.ops.profiler._record_function_exit._RecordFunction(record)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/_ops.py", line 888, in __call__
+    if _must_dispatch_in_python(args, kwargs):
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/_ops.py", line 944, in _must_dispatch_in_python
+    return pytree.tree_any(
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/_pytree.py", line 1187, in tree_any
+    return any(map(pred, flat_args))
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/_pytree.py", line 884, in tree_iter
+    child_pytrees, _ = flatten_fn(tree)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/_pytree.py", line 396, in _tuple_flatten
+    return list(d), None
+KeyboardInterrupt

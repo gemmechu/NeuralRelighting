@@ -1,0 +1,22 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.043489
+Epoch 10/1000 | Avg Loss: 0.001490
+Epoch 20/1000 | Avg Loss: 0.001486
+Epoch 30/1000 | Avg Loss: 0.001485
+Epoch 40/1000 | Avg Loss: 0.001485
+Epoch 50/1000 | Avg Loss: 0.001485
+Epoch 60/1000 | Avg Loss: 0.001485
+Epoch 70/1000 | Avg Loss: 0.001485
+Epoch 80/1000 | Avg Loss: 0.001485
+Epoch 90/1000 | Avg Loss: 0.001485
+Epoch 100/1000 | Avg Loss: 0.001484
+Epoch 110/1000 | Avg Loss: 0.001483
+Traceback (most recent call last):
+  File "pixel.py", line 257, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 207, in train
+    loss = train_batch(model, optimizer, loss_fn, batch, device)
+  File "pixel.py", line 195, in train_batch
+    return loss.item()
+KeyboardInterrupt

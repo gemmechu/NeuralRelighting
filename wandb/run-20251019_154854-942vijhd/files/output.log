@@ -1,0 +1,14 @@
+Epoch 1/10 | Avg Loss: 0.000430
+Epoch 2/10 | Avg Loss: 0.000158
+Traceback (most recent call last):
+  File "train.py", line 324, in <module>
+    train_autoencoder(model, dataloader, config)
+  File "train.py", line 271, in train_autoencoder
+    log_reflectance_to_wandb(pred_img, gt_img, epoch)
+  File "train.py", line 62, in log_reflectance_to_wandb
+    stacked = np.hstack([gt_img, gap, pred_img, gap, ssim_vis, gap, flip_err])
+  File "<__array_function__ internals>", line 200, in hstack
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/numpy/core/shape_base.py", line 370, in hstack
+    return _nx.concatenate(arrs, 1, dtype=dtype, casting=casting)
+  File "<__array_function__ internals>", line 200, in concatenate
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 2, the array at index 0 has size 6144 and the array at index 1 has size 3

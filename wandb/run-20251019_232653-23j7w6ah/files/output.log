@@ -1,0 +1,8 @@
+data loaded!
+lr: 0.0001
+Traceback (most recent call last):
+  File "pixel.py", line 198, in <module>
+    model = ReflectanceAutoEncoder(config).to(device)
+  File "pixel.py", line 93, in __init__
+    h1, h2 = config["hidden_dims"]
+ValueError: too many values to unpack (expected 2)

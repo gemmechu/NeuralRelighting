@@ -1,0 +1,15 @@
+{"time":"2025-10-21T19:54:15.978519473-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251021_195415-vzglic96/logs/debug-core.log"}
+{"time":"2025-10-21T19:54:16.09476168-04:00","level":"INFO","msg":"created new stream","id":"vzglic96"}
+{"time":"2025-10-21T19:54:16.094801282-04:00","level":"INFO","msg":"stream: started","id":"vzglic96"}
+{"time":"2025-10-21T19:54:16.094829834-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:16.095551628-04:00","level":"INFO","msg":"handler: started","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:16.095597152-04:00","level":"INFO","msg":"sender: started","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:16.353898246-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-21T19:54:22.726955873-04:00","level":"INFO","msg":"stream: closing","id":"vzglic96"}
+{"time":"2025-10-21T19:54:22.726992927-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-21T19:54:22.728051557-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-21T19:54:23.126819943-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T19:54:23.245803757-04:00","level":"INFO","msg":"handler: closed","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:23.2458386-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:23.245859586-04:00","level":"INFO","msg":"sender: closed","stream_id":"vzglic96"}
+{"time":"2025-10-21T19:54:23.290959144-04:00","level":"INFO","msg":"stream: closed","id":"vzglic96"}

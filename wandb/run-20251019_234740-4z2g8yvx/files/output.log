@@ -1,0 +1,25 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.759131
+Epoch 10/1000 | Avg Loss: 1.473448
+Epoch 20/1000 | Avg Loss: 0.856773
+Epoch 30/1000 | Avg Loss: 0.651151
+Epoch 40/1000 | Avg Loss: 0.450552
+Epoch 50/1000 | Avg Loss: 0.399293
+Epoch 60/1000 | Avg Loss: 0.326568
+Traceback (most recent call last):
+  File "pixel.py", line 200, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 154, in train
+    for batch in dataloader:
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "pixel.py", line 84, in __getitem__
+    return self.reflectance_GT[idx], self.mask[idx]
+KeyboardInterrupt

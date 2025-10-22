@@ -1,0 +1,84 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.092750
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(48)generate_reflectance_image()
+-> mse_map = (pred_map - gt_map) ** 2  # per-pixel MSE
+-0.0
+0.0
+array([[[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]],
+
+       [[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]],
+
+       [[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]],
+
+       ...,
+
+       [[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]],
+
+       [[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]],
+
+       [[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        ...,
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]]], dtype=float32)
+0.0
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(47)generate_reflectance_image()
+-> import pdb; pdb.set_trace()
+0.0
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(48)generate_reflectance_image()
+-> mse_map = (pred_map - gt_map) ** 2  # per-pixel MSE
+0.0030281052
+0.0029655788
+3.954369e-07
+1.9811966e-07
+0.039468408
+0.019489713
+0.019489713
+ad
+Traceback (most recent call last):
+  File "pixel.py", line 228, in <module>
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+  File "pixel.py", line 191, in train
+    for epoch in range(epochs):
+  File "pixel.py", line 48, in generate_reflectance_image
+    mse_total += mse_val
+  File "pixel.py", line 48, in generate_reflectance_image
+    mse_total += mse_val
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

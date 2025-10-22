@@ -1,0 +1,9 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.438902
+Traceback (most recent call last):
+  File "pixel.py", line 234, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 197, in train
+    generate_reflectance_image(model, dataset, epoch=epoch)
+TypeError: generate_reflectance_image() missing 1 required positional argument: 'config'

@@ -1,0 +1,15 @@
+{"time":"2025-10-19T23:06:56.968340257-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251019_230656-hnnfo1gw/logs/debug-core.log"}
+{"time":"2025-10-19T23:06:57.08279301-04:00","level":"INFO","msg":"created new stream","id":"hnnfo1gw"}
+{"time":"2025-10-19T23:06:57.082858514-04:00","level":"INFO","msg":"stream: started","id":"hnnfo1gw"}
+{"time":"2025-10-19T23:06:57.082861676-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:06:57.083048606-04:00","level":"INFO","msg":"sender: started","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:06:57.083551089-04:00","level":"INFO","msg":"handler: started","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:06:57.342095036-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-19T23:17:06.032388201-04:00","level":"INFO","msg":"stream: closing","id":"hnnfo1gw"}
+{"time":"2025-10-19T23:17:06.032581634-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-19T23:17:06.034018733-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-19T23:17:06.4114909-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T23:17:06.520747563-04:00","level":"INFO","msg":"handler: closed","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:17:06.520794205-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:17:06.520826342-04:00","level":"INFO","msg":"sender: closed","stream_id":"hnnfo1gw"}
+{"time":"2025-10-19T23:17:06.521784743-04:00","level":"INFO","msg":"stream: closed","id":"hnnfo1gw"}

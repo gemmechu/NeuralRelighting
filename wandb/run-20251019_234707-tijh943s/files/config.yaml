@@ -1,0 +1,56 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.8.20
+            "5": 0.19.6
+            "8":
+                - 5
+            "12": 0.19.6
+            "13": linux-x86_64
+batch_size:
+    value: 100
+col_slice:
+    value:
+        - 100
+        - 200
+epochs:
+    value: 1000
+hidden_dims:
+    value:
+        - 1024
+        - 256
+input_dim:
+    value: 2048
+latent_dim:
+    value: 128
+log_interval:
+    value: 10
+lr:
+    value: 0.0001
+mask_path:
+    value: /home/gmh72/3DReconstruction/Blender_Rendering/data/diffuse_suzanne_white/mask.png
+reflectance_data_dir:
+    value: /home/gmh72/3DReconstruction/Blender_Rendering/data/diffuse_suzanne_white/reflectance
+row_slice:
+    value:
+        - 100
+        - 200
+save_path:
+    value: /home/gmh72/3DReconstruction/2DRelighting/output/auto/reflectance_autoencoder.pth
+use_wandb:
+    value: true
+wandb_project:
+    value: ReflectanceAE

@@ -1,0 +1,16 @@
+{"time":"2025-10-19T16:26:47.763158137-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251019_162647-xl98ypgc/logs/debug-core.log"}
+{"time":"2025-10-19T16:26:47.878081086-04:00","level":"INFO","msg":"created new stream","id":"xl98ypgc"}
+{"time":"2025-10-19T16:26:47.878124005-04:00","level":"INFO","msg":"stream: started","id":"xl98ypgc"}
+{"time":"2025-10-19T16:26:47.878152613-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:26:47.878844348-04:00","level":"INFO","msg":"handler: started","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:26:47.878887818-04:00","level":"INFO","msg":"sender: started","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:26:48.129944715-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-19T16:27:02.589972166-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-19T16:27:02.590755217-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-19T16:27:02.982688836-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T16:27:03.186097439-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-10-19T16:27:04.198446019-04:00","level":"INFO","msg":"stream: closing","id":"xl98ypgc"}
+{"time":"2025-10-19T16:27:04.198514624-04:00","level":"INFO","msg":"handler: closed","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:27:04.198580215-04:00","level":"INFO","msg":"sender: closed","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:27:04.198529175-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xl98ypgc"}
+{"time":"2025-10-19T16:27:04.256272225-04:00","level":"INFO","msg":"stream: closed","id":"xl98ypgc"}

@@ -1,0 +1,15 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.812476
+Traceback (most recent call last):
+  File "pixel.py", line 236, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 199, in train
+    generate_reflectance_image(model, dataset, epoch=epoch, config=config)
+  File "pixel.py", line 89, in generate_reflectance_image
+    vis = np.hstack([grid(preds), np.ones((H*g,5,3)), grid(gts), np.ones((H*g,5,3)), img(ssim_errs), np.ones((H*g,5,3))])
+  File "pixel.py", line 88, in <lambda>
+    img = lambda x: cv2.applyColorMap((grid(x)[...,0]*255).astype(np.uint8), cv2.COLORMAP_INFERNO)[...,::-1]/255.0
+  File "pixel.py", line 87, in grid
+    def grid(x): x=np.array(x).reshape(g,g,H,W,3); return x.transpose(0,2,1,3,4).reshape(g*H,g*W,3)
+ValueError: cannot reshape array of size 460800 into shape (5,5,32,64,3)

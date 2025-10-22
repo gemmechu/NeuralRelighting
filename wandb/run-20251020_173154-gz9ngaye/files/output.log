@@ -1,0 +1,23 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.094633
+Traceback (most recent call last):
+  File "pixel.py", line 241, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 204, in train
+    generate_reflectance_image(model, dataset, epoch=epoch)
+  File "pixel.py", line 45, in generate_reflectance_image
+    ssim_val = structural_similarity(pred_map, gt_map, channel_axis=-1, data_range=1.0)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/skimage/metrics/_structural_similarity.py", line 133, in structural_similarity
+    ch_result = structural_similarity(im1[_at(ch)],
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/skimage/metrics/_structural_similarity.py", line 231, in structural_similarity
+    ux = filter_func(im1, **filter_args)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/scipy/ndimage/_filters.py", line 985, in uniform_filter
+    output = _ni_support._get_output(output, input,
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/scipy/ndimage/_ni_support.py", line 78, in _get_output
+    output = numpy.zeros(shape, dtype=input.dtype.name)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/numpy/core/_dtype.py", line 358, in _name_get
+    if _name_includes_bit_suffix(dtype):
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/numpy/core/_dtype.py", line 331, in _name_includes_bit_suffix
+    if dtype.type == np.object_:
+KeyboardInterrupt

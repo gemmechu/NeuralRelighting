@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 1
+                - 2
+                - 16
+                - 23
+                - 55
+            "4": 3.8.20
+            "5": 0.19.6
+            "8":
+                - 5
+            "12": 0.19.6
+            "13": linux-x86_64
+data:
+    value:
+        C: 96
+        H: 112
+        "N": 4
+        W: 112
+        col_slice:
+            - 88
+            - 200
+        folders:
+            - diffuse_suzanne_white
+        root_dir: /home/gmh72/3DReconstruction/Blender_Rendering/data
+        row_slice:
+            - 88
+            - 200
+model:
+    value:
+        decoder_channels:
+            - 512
+            - 256
+            - 128
+            - 64
+        encoder_channels:
+            - 64
+            - 128
+            - 256
+            - 512
+        in_channels: 6144
+        kernel_size: 3
+        latent_dim: 128
+        padding: 1
+        spatial_latent: true
+project:
+    value: ReflectanceAE
+training:
+    value:
+        batch_size: 1
+        device: cuda
+        epochs: 20
+        lr: 0.001
+use_wandb:
+    value: true

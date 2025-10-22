@@ -1,0 +1,92 @@
+data loaded!
+lr: 0.005
+Epoch 0/1000 | Avg Loss: 0.023971
+Epoch 10/1000 | Avg Loss: 0.000965
+Epoch 20/1000 | Avg Loss: 0.000903
+Epoch 30/1000 | Avg Loss: 0.000851
+Epoch 40/1000 | Avg Loss: 0.000696
+Epoch 50/1000 | Avg Loss: 0.000715
+Epoch 60/1000 | Avg Loss: 0.000698
+Epoch 70/1000 | Avg Loss: 0.000618
+Epoch 80/1000 | Avg Loss: 0.000717
+Epoch 90/1000 | Avg Loss: 0.000582
+Epoch 100/1000 | Avg Loss: 0.000634
+Epoch 110/1000 | Avg Loss: 0.000740
+Epoch 120/1000 | Avg Loss: 0.000645
+Epoch 130/1000 | Avg Loss: 0.000632
+Epoch 140/1000 | Avg Loss: 0.000570
+Epoch 150/1000 | Avg Loss: 0.000552
+Epoch 160/1000 | Avg Loss: 0.000645
+Epoch 170/1000 | Avg Loss: 0.000579
+Epoch 180/1000 | Avg Loss: 0.000549
+Epoch 190/1000 | Avg Loss: 0.000568
+Epoch 200/1000 | Avg Loss: 0.000696
+Epoch 210/1000 | Avg Loss: 0.000653
+Epoch 220/1000 | Avg Loss: 0.000715
+Epoch 230/1000 | Avg Loss: 0.000669
+Epoch 240/1000 | Avg Loss: 0.000613
+Epoch 250/1000 | Avg Loss: 0.004821
+Epoch 260/1000 | Avg Loss: 0.010487
+Epoch 270/1000 | Avg Loss: 0.010487
+Epoch 280/1000 | Avg Loss: 0.010486
+Epoch 290/1000 | Avg Loss: 0.010486
+Epoch 300/1000 | Avg Loss: 0.010486
+Epoch 310/1000 | Avg Loss: 0.010486
+Epoch 320/1000 | Avg Loss: 0.010486
+Epoch 330/1000 | Avg Loss: 0.010486
+Epoch 340/1000 | Avg Loss: 0.010486
+Epoch 350/1000 | Avg Loss: 0.010486
+Epoch 360/1000 | Avg Loss: 0.010486
+Epoch 370/1000 | Avg Loss: 0.010486
+Epoch 380/1000 | Avg Loss: 0.010486
+Epoch 390/1000 | Avg Loss: 0.010486
+Epoch 400/1000 | Avg Loss: 0.010486
+Epoch 410/1000 | Avg Loss: 0.010486
+Epoch 420/1000 | Avg Loss: 0.010486
+Epoch 430/1000 | Avg Loss: 0.010486
+Epoch 440/1000 | Avg Loss: 0.010486
+Epoch 450/1000 | Avg Loss: 0.010486
+Epoch 460/1000 | Avg Loss: 0.010486
+Epoch 470/1000 | Avg Loss: 0.010486
+Epoch 480/1000 | Avg Loss: 0.010486
+Epoch 490/1000 | Avg Loss: 0.010486
+Epoch 500/1000 | Avg Loss: 0.010486
+Epoch 510/1000 | Avg Loss: 0.010486
+Epoch 520/1000 | Avg Loss: 0.010486
+Epoch 530/1000 | Avg Loss: 0.010486
+Epoch 540/1000 | Avg Loss: 0.010486
+Epoch 550/1000 | Avg Loss: 0.010486
+Epoch 560/1000 | Avg Loss: 0.010486
+Epoch 570/1000 | Avg Loss: 0.010486
+Epoch 580/1000 | Avg Loss: 0.010486
+Epoch 590/1000 | Avg Loss: 0.010486
+Epoch 600/1000 | Avg Loss: 0.010486
+Epoch 610/1000 | Avg Loss: 0.010486
+Epoch 620/1000 | Avg Loss: 0.010486
+Traceback (most recent call last):
+  File "pixel.py", line 165, in <module>
+    "col_slice": [100, 200],
+  File "pixel.py", line 138, in train
+    return loss.item()
+  File "pixel.py", line 121, in train_batch
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "pixel.py", line 112, in forward
+    z = self.encoder(x)        # (B, latent_dim)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 104, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/nn/functional.py", line 1500, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

@@ -1,0 +1,23 @@
+2025-10-20 17:37:44,678 INFO    MainThread:2751685 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-10-20 17:37:44,678 INFO    MainThread:2751685 [wandb_setup.py:_flush():68] Configure stats pid to 2751685
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_setup.py:_flush():68] Loading settings from /home/gmh72/.config/wandb/settings
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_setup.py:_flush():68] Loading settings from /home/gmh72/3DReconstruction/NeuralRelighting/wandb/settings
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251020_173744-rcnd9a0q/logs/debug.log
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251020_173744-rcnd9a0q/logs/debug-internal.log
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_init.py:init():756] calling init triggers
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'row_slice': [100, 200], 'col_slice': [100, 200], 'mask_path': '/home/gmh72/3DReconstruction/Blender_Rendering/data/diffuse_suzanne_white/mask.png', 'reflectance_data_dir': '/home/gmh72/3DReconstruction/Blender_Rendering/data/diffuse_suzanne_white/reflectance', 'input_dim': 2048, 'hidden_dims': [1024, 256], 'latent_dim': 128, 'lr': 0.0001, 'epochs': 1000, 'batch_size': 100, 'log_interval': 10, 'use_wandb': True, 'wandb_project': 'ReflectanceAE', 'save_path': '/home/gmh72/3DReconstruction/2DRelighting/output/auto/reflectance_autoencoder.pth', '_wandb': {}}
+2025-10-20 17:37:44,679 INFO    MainThread:2751685 [wandb_init.py:init():789] starting backend
+2025-10-20 17:37:44,980 INFO    MainThread:2751685 [wandb_init.py:init():793] sending inform_init request
+2025-10-20 17:37:45,040 INFO    MainThread:2751685 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-10-20 17:37:45,041 INFO    MainThread:2751685 [wandb_init.py:init():808] backend started and connected
+2025-10-20 17:37:45,044 INFO    MainThread:2751685 [wandb_init.py:init():901] updated telemetry
+2025-10-20 17:37:45,047 INFO    MainThread:2751685 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-10-20 17:37:45,373 INFO    MainThread:2751685 [wandb_init.py:init():994] starting run threads in backend
+2025-10-20 17:37:45,718 INFO    MainThread:2751685 [wandb_run.py:_console_start():2385] atexit reg
+2025-10-20 17:37:45,719 INFO    MainThread:2751685 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-10-20 17:37:45,719 INFO    MainThread:2751685 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-10-20 17:37:45,719 INFO    MainThread:2751685 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-10-20 17:37:45,725 INFO    MainThread:2751685 [wandb_init.py:init():1036] run started, returning control to user process
+2025-10-20 17:37:52,581 WARNING MsgRouterThr:2751685 [router.py:message_loop():75] message_loop has been closed

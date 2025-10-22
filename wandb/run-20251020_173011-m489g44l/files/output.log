@@ -1,0 +1,21 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.090191
+Epoch 10/1000 | Avg Loss: 0.000269
+Epoch 20/1000 | Avg Loss: 0.000133
+Traceback (most recent call last):
+  File "pixel.py", line 240, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 203, in train
+    generate_reflectance_image(model, dataset, epoch=epoch)
+  File "pixel.py", line 45, in generate_reflectance_image
+    ssim_val = structural_similarity(pred_map, gt_map, channel_axis=-1, data_range=1.0)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/skimage/metrics/_structural_similarity.py", line 133, in structural_similarity
+    ch_result = structural_similarity(im1[_at(ch)],
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/skimage/metrics/_structural_similarity.py", line 237, in structural_similarity
+    uxy = filter_func(im1 * im2, **filter_args)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/scipy/ndimage/_filters.py", line 995, in uniform_filter
+    uniform_filter1d(input, int(size), axis, output, mode,
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/scipy/ndimage/_filters.py", line 930, in uniform_filter1d
+    _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+KeyboardInterrupt

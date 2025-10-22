@@ -1,0 +1,34 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.000048
+Epoch 10/1000 | Avg Loss: 0.000000
+Epoch 20/1000 | Avg Loss: 0.000000
+Epoch 30/1000 | Avg Loss: 0.000000
+Epoch 40/1000 | Avg Loss: 0.000000
+Epoch 50/1000 | Avg Loss: 0.000000
+Epoch 60/1000 | Avg Loss: 0.000000
+Epoch 70/1000 | Avg Loss: 0.000000
+Epoch 80/1000 | Avg Loss: 0.000000
+Epoch 90/1000 | Avg Loss: 0.000000
+Traceback (most recent call last):
+  File "pixel.py", line 235, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 189, in train
+    for batch in dataloader:
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 317, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 174, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 174, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 214, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt

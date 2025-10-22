@@ -1,0 +1,42 @@
+data loaded!
+lr: 7e-05
+Epoch 0/1000 | Avg Loss: 80.467922
+Epoch 10/1000 | Avg Loss: 19.362251
+Epoch 20/1000 | Avg Loss: 14.236010
+Epoch 30/1000 | Avg Loss: 11.246940
+Epoch 40/1000 | Avg Loss: 8.505030
+Epoch 50/1000 | Avg Loss: 7.845323
+Epoch 60/1000 | Avg Loss: 7.197281
+Epoch 70/1000 | Avg Loss: 6.147439
+Epoch 80/1000 | Avg Loss: 5.662540
+Epoch 90/1000 | Avg Loss: 5.251244
+Epoch 100/1000 | Avg Loss: 5.084345
+Epoch 110/1000 | Avg Loss: 4.854175
+Epoch 120/1000 | Avg Loss: 4.802361
+Epoch 130/1000 | Avg Loss: 4.741915
+Epoch 140/1000 | Avg Loss: 4.404279
+Epoch 150/1000 | Avg Loss: 4.045603
+Epoch 160/1000 | Avg Loss: 3.993596
+Epoch 170/1000 | Avg Loss: 3.994395
+Epoch 180/1000 | Avg Loss: 3.597636
+Epoch 190/1000 | Avg Loss: 3.525230
+Epoch 200/1000 | Avg Loss: 3.171774
+Epoch 210/1000 | Avg Loss: 3.125958
+Epoch 220/1000 | Avg Loss: 3.213004
+Epoch 230/1000 | Avg Loss: 3.082350
+Epoch 240/1000 | Avg Loss: 3.068610
+Epoch 250/1000 | Avg Loss: 3.023662
+Epoch 260/1000 | Avg Loss: 3.005097
+Epoch 270/1000 | Avg Loss: 3.036301
+Epoch 280/1000 | Avg Loss: 3.046584
+Epoch 290/1000 | Avg Loss: 2.938747
+Epoch 300/1000 | Avg Loss: 2.854769
+Epoch 310/1000 | Avg Loss: 2.797730
+Traceback (most recent call last):
+  File "pixel.py", line 257, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 207, in train
+    loss = train_batch(model, optimizer, loss_fn, batch, device)
+  File "pixel.py", line 195, in train_batch
+    return loss.item()
+KeyboardInterrupt

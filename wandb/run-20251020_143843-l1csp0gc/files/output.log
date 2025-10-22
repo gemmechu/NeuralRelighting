@@ -1,0 +1,39 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.093606
+Epoch 10/1000 | Avg Loss: 0.000263
+Epoch 20/1000 | Avg Loss: 0.000078
+Epoch 30/1000 | Avg Loss: 0.000047
+Epoch 40/1000 | Avg Loss: 0.000040
+Epoch 50/1000 | Avg Loss: 0.000040
+Epoch 60/1000 | Avg Loss: 0.000038
+Epoch 70/1000 | Avg Loss: 0.000034
+Epoch 80/1000 | Avg Loss: 0.000036
+Epoch 90/1000 | Avg Loss: 0.000030
+Epoch 100/1000 | Avg Loss: 0.000028
+Epoch 110/1000 | Avg Loss: 0.000025
+Epoch 120/1000 | Avg Loss: 0.000025
+Epoch 130/1000 | Avg Loss: 0.000019
+Epoch 140/1000 | Avg Loss: 0.000021
+Epoch 150/1000 | Avg Loss: 0.000018
+Epoch 160/1000 | Avg Loss: 0.000017
+Epoch 170/1000 | Avg Loss: 0.000018
+Epoch 180/1000 | Avg Loss: 0.000016
+Epoch 190/1000 | Avg Loss: 0.000016
+Epoch 200/1000 | Avg Loss: 0.000015
+Epoch 210/1000 | Avg Loss: 0.000015
+Epoch 220/1000 | Avg Loss: 0.000013
+Traceback (most recent call last):
+  File "pixel.py", line 228, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 183, in train
+    loss = train_batch(model, optimizer, loss_fn, batch, device)
+  File "pixel.py", line 169, in train_batch
+    loss.backward()
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/site-packages/torch/autograd/graph.py", line 768, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

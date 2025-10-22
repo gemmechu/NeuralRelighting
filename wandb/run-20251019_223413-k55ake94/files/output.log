@@ -1,0 +1,68 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.737105
+Epoch 10/1000 | Avg Loss: 1.478208
+Epoch 20/1000 | Avg Loss: 0.843999
+Epoch 30/1000 | Avg Loss: 0.610116
+Epoch 40/1000 | Avg Loss: 0.467153
+Epoch 50/1000 | Avg Loss: 0.382725
+Epoch 60/1000 | Avg Loss: 0.336009
+Epoch 70/1000 | Avg Loss: 0.350895
+Epoch 80/1000 | Avg Loss: 0.323038
+Epoch 90/1000 | Avg Loss: 0.283806
+Epoch 100/1000 | Avg Loss: 0.289714
+Epoch 110/1000 | Avg Loss: 0.262493
+Epoch 120/1000 | Avg Loss: 0.261511
+Epoch 130/1000 | Avg Loss: 0.240932
+Epoch 140/1000 | Avg Loss: 0.227451
+Epoch 150/1000 | Avg Loss: 0.237302
+Epoch 160/1000 | Avg Loss: 0.253073
+Epoch 170/1000 | Avg Loss: 0.247240
+Epoch 180/1000 | Avg Loss: 0.259391
+Epoch 190/1000 | Avg Loss: 0.202381
+Epoch 200/1000 | Avg Loss: 0.211159
+Epoch 210/1000 | Avg Loss: 0.219993
+Epoch 220/1000 | Avg Loss: 0.241405
+Epoch 230/1000 | Avg Loss: 0.248137
+Epoch 240/1000 | Avg Loss: 0.203974
+Epoch 250/1000 | Avg Loss: 0.264518
+Epoch 260/1000 | Avg Loss: 0.214374
+Epoch 270/1000 | Avg Loss: 0.217499
+Epoch 280/1000 | Avg Loss: 0.204990
+Epoch 290/1000 | Avg Loss: 0.160600
+Epoch 300/1000 | Avg Loss: 0.204812
+Epoch 310/1000 | Avg Loss: 0.200742
+Epoch 320/1000 | Avg Loss: 0.230801
+Epoch 330/1000 | Avg Loss: 0.200403
+Epoch 340/1000 | Avg Loss: 0.166541
+Epoch 350/1000 | Avg Loss: 0.167126
+Epoch 360/1000 | Avg Loss: 0.187325
+Epoch 370/1000 | Avg Loss: 0.189240
+Epoch 380/1000 | Avg Loss: 0.153295
+Epoch 390/1000 | Avg Loss: 0.176518
+Epoch 400/1000 | Avg Loss: 0.160679
+Epoch 410/1000 | Avg Loss: 0.185521
+Epoch 420/1000 | Avg Loss: 0.154369
+Epoch 430/1000 | Avg Loss: 0.150414
+Epoch 440/1000 | Avg Loss: 0.132253
+Epoch 450/1000 | Avg Loss: 0.176351
+Epoch 460/1000 | Avg Loss: 0.159465
+Epoch 470/1000 | Avg Loss: 0.173045
+Epoch 480/1000 | Avg Loss: 0.138611
+Epoch 490/1000 | Avg Loss: 0.151921
+Epoch 500/1000 | Avg Loss: 0.166846
+Epoch 510/1000 | Avg Loss: 0.136849
+Epoch 520/1000 | Avg Loss: 0.159957
+Epoch 530/1000 | Avg Loss: 0.153951
+Epoch 540/1000 | Avg Loss: 0.164266
+Epoch 550/1000 | Avg Loss: 0.165476
+Epoch 560/1000 | Avg Loss: 0.162423
+Epoch 570/1000 | Avg Loss: 0.159310
+Traceback (most recent call last):
+  File "pixel.py", line 179, in <module>
+    config = {
+  File "pixel.py", line 152, in train
+    recon, _ = model(ref_gt)
+  File "pixel.py", line 134, in train_batch
+    out = self.decoder(z)
+KeyboardInterrupt

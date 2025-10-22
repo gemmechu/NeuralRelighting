@@ -1,0 +1,15 @@
+{"time":"2025-10-19T23:40:42.398286919-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251019_234042-tqfd4mom/logs/debug-core.log"}
+{"time":"2025-10-19T23:40:42.512940001-04:00","level":"INFO","msg":"created new stream","id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:42.512972685-04:00","level":"INFO","msg":"stream: started","id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:42.512990778-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:42.513562039-04:00","level":"INFO","msg":"handler: started","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:42.513593736-04:00","level":"INFO","msg":"sender: started","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:42.754362336-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-19T23:40:49.621180118-04:00","level":"INFO","msg":"stream: closing","id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:49.621247005-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-19T23:40:49.622107208-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-19T23:40:50.008121347-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T23:40:50.179377022-04:00","level":"INFO","msg":"handler: closed","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:50.179435876-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:50.179509916-04:00","level":"INFO","msg":"sender: closed","stream_id":"tqfd4mom"}
+{"time":"2025-10-19T23:40:50.183339333-04:00","level":"INFO","msg":"stream: closed","id":"tqfd4mom"}

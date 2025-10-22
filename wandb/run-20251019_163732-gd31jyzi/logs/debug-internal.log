@@ -1,0 +1,16 @@
+{"time":"2025-10-19T16:37:33.310470247-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gmh72/3DReconstruction/NeuralRelighting/wandb/run-20251019_163732-gd31jyzi/logs/debug-core.log"}
+{"time":"2025-10-19T16:37:33.427374731-04:00","level":"INFO","msg":"created new stream","id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:33.427414921-04:00","level":"INFO","msg":"stream: started","id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:33.427447578-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:33.428168209-04:00","level":"INFO","msg":"handler: started","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:33.428222684-04:00","level":"INFO","msg":"sender: started","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:33.678007355-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-19T16:37:55.644546363-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-19T16:37:55.645302143-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-19T16:37:56.000048243-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-19T16:37:56.238733989-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-10-19T16:37:57.256347961-04:00","level":"INFO","msg":"stream: closing","id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:57.256391609-04:00","level":"INFO","msg":"handler: closed","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:57.256405495-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:57.256694024-04:00","level":"INFO","msg":"sender: closed","stream_id":"gd31jyzi"}
+{"time":"2025-10-19T16:37:57.274205439-04:00","level":"INFO","msg":"stream: closed","id":"gd31jyzi"}

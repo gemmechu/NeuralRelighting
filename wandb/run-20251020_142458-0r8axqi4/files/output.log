@@ -1,0 +1,28 @@
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(94)__init__()
+-> self.reflectance_GT = torch.from_numpy(reflectance_GT_files).float() * self.mask.view(-1,1,1)
+tensor([[  0,   0,   0,  ..., 255, 255, 255],
+        [  0,   0,   0,  ..., 255, 255, 255],
+        [  0,   0,   0,  ..., 255, 255, 255],
+        ...,
+        [255, 255, 255,  ..., 255, 255, 255],
+        [255, 255, 255,  ..., 255, 255, 255],
+        [255, 255, 255,  ..., 255, 255, 255]], dtype=torch.uint8)
+array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], dtype=float32)
+1.0
+Traceback (most recent call last):
+  File "pixel.py", line 210, in <module>
+  File "pixel.py", line 94, in __init__
+    import pdb; pdb.set_trace()
+  File "pixel.py", line 94, in __init__
+    import pdb; pdb.set_trace()
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

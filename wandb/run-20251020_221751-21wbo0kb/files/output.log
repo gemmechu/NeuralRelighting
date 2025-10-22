@@ -1,0 +1,21 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 0.355153
+Epoch 10/1000 | Avg Loss: 0.237189
+pixel.py:53: RuntimeWarning: invalid value encountered in divide
+  pred_img, gt_img = pred_img/pred_img.max(), gt_img/gt_img.max()
+pixel.py:70: RuntimeWarning: invalid value encountered in cast
+  labeled = np.vstack([(stacked * 255).astype(np.uint8), np.zeros((20, w, 3), np.uint8)])
+Epoch 20/1000 | Avg Loss: 0.237189
+Epoch 30/1000 | Avg Loss: 0.237189
+Epoch 40/1000 | Avg Loss: 0.237189
+Epoch 50/1000 | Avg Loss: 0.237189
+Epoch 60/1000 | Avg Loss: 0.237189
+Traceback (most recent call last):
+  File "pixel.py", line 256, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 206, in train
+    loss = train_batch(model, optimizer, loss_fn, batch, device)
+  File "pixel.py", line 194, in train_batch
+    return loss.item()
+KeyboardInterrupt

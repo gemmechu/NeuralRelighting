@@ -1,0 +1,11 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.857593
+Traceback (most recent call last):
+  File "pixel.py", line 234, in <module>
+    train(model, dataloader, config, device)
+  File "pixel.py", line 197, in train
+    generate_reflectance_image(model, dataset, epoch=epoch, config=config)
+  File "pixel.py", line 68, in generate_reflectance_image
+    H, W = config["reflectance_shape"]; g = config["sample_grid"]; γ = lambda x: np.power(np.clip(x,0,1)/(x.max()+1e-8),1/2.2)
+KeyError: 'reflectance_shape'

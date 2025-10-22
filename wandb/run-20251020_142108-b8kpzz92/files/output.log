@@ -1,0 +1,47 @@
+data loaded!
+lr: 0.0001
+Epoch 0/1000 | Avg Loss: 26.402220
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(33)generate_reflectance_image()
+-> preds *= mask
+(10000, 1, 1)
+(10000, 2048, 3)
+(10000, 2048, 3)
+Epoch 10/1000 | Avg Loss: 1.467604
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(33)generate_reflectance_image()
+-> preds *= mask
+Epoch 20/1000 | Avg Loss: 0.835502
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(33)generate_reflectance_image()
+-> preds *= mask
+Epoch 30/1000 | Avg Loss: 0.605846
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(33)generate_reflectance_image()
+-> preds *= mask
+array([[[  0]],
+
+       [[  0]],
+
+       [[  0]],
+
+       ...,
+
+       [[255]],
+
+       [[255]],
+
+       [[255]]], dtype=uint8)
+Epoch 40/1000 | Avg Loss: 0.472850
+> /home/gmh72/3DReconstruction/NeuralRelighting/pixel.py(33)generate_reflectance_image()
+-> preds *= mask
+Traceback (most recent call last):
+  File "pixel.py", line 216, in <module>
+    model = ReflectanceAutoEncoder(config).to(device)
+  File "pixel.py", line 179, in train
+    wandb.log({"epoch": epoch, "loss": avg_loss})
+  File "pixel.py", line 33, in generate_reflectance_image
+    preds *= mask
+  File "pixel.py", line 33, in generate_reflectance_image
+    preds *= mask
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/gmh72/.conda/envs/TensoIR3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
